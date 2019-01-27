@@ -264,7 +264,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (26, '2018_12_18_055641_create_inventory_adjustments_table', 1),
 (27, '2018_12_18_080910_create_donesched_table', 1),
 (28, '2019_01_07_005128_create_trigger', 1),
-(29, '2019_01_10_060737_create_trigger2', 1);
+(29, '2019_01_10_060737_create_trigger2', 1),
 
 -- --------------------------------------------------------
 
@@ -373,7 +373,37 @@ INSERT INTO `patients` (`id`, `created_at`, `updated_at`, `patient_lname`, `pati
 (47, '2019-01-27 04:04:57', '2019-01-27 04:04:57', 'Carter', 'Michael', 'Dwayne', '2015-06-17', 'New Orleans, Louisiana, United States', 'Male', 'Roy Carter', 'Jacida Michael', 'Choreographer', 'Management consultant', 9785412875, 'Forceps Delivery'),
 (48, '2019-01-27 04:07:45', '2019-01-27 04:07:45', 'Almanzar', 'Marlenis', 'Belcalis', '2011-06-08', 'The Bronx, New York City, New York, United States', 'Female', 'Nicholas Almanzar', 'Elizabeth Marlenis', 'Teacher', 'Politician', 9785421875, 'Forceps Delivery'),
 (49, '2019-01-27 04:09:50', '2019-01-27 04:09:50', 'Halos', 'Cacho', 'Neri Mae', '2012-07-14', 'Sta Lucia, Ilocos Sur', 'Female', 'Daniel Halos', 'Kathryn Cacho', 'Teacher', 'Butcher', 9875421785, 'C-Section'),
-(50, '2019-01-27 04:11:08', '2019-01-27 04:11:08', 'Geraldez', 'Martin', 'Maureen', '2013-06-06', 'Engineers Hill, Baguio City', 'Female', 'Butch Geraldez', 'Noemi Geraldez', 'Housekeeper', 'Clockmaker', 9785285278, 'Vacuum Extraction');
+(50, '2019-01-27 04:11:08', '2019-01-27 04:11:08', 'Geraldez', 'Martin', 'Maureen', '2013-06-06', 'Engineers Hill, Baguio City', 'Female', 'Butch Geraldez', 'Noemi Geraldez', 'Housekeeper', 'Clockmaker', 9785285278, 'Vacuum Extraction'),
+(51, '2019-01-27 02:45:21', '2019-01-27 02:45:21', 'Ramos', 'Romero', 'Joana Mae', '2010-04-28', 'San Jose, Candon City, Ilocos Sur', 'Female', 'Joshua Ramos', 'Lisa Romero', 'OFW', 'Deceased', 9453519456, 'Vaginal Delivery'),
+(52, '2019-01-27 02:48:00', '2019-01-27 02:48:00', 'Galut', 'Gonzaga', 'John Neil Mariel', '2011-05-20', 'San Fernando, La Union', 'Male', 'John Galut', 'Joy Gonzaga', 'OFW', 'Doctor', 9764569875, 'Natural Delivery'),
+(53, '2019-01-27 02:53:54', '2019-01-27 02:53:54', 'Belloza', 'Tan', 'Hana', '2013-01-16', 'San Emilio, Ilocos Sur', 'Female', 'Ian Belloza', 'Krisna Tan', 'Teacher', 'Nurse', 9457816597, 'Vacuum Extraction'),
+(54, '2019-01-27 02:56:05', '2019-01-27 02:56:05', 'Valdez', 'Ramos', 'Christopher', '2017-01-10', 'Aurora Hill, Baguio City', 'Male', 'Chris Valdez', 'Jenny Ramos', 'Deceased', 'Engineer', 9736543277, 'Forceps Delivery'),
+(55, '2019-01-27 02:58:54', '2019-01-27 02:58:54', 'Gadong', 'Mendoza', 'Jeric', '2011-12-27', '12 Liquete St., Darapidap, Candon City, Ilocos Sur', 'Male', 'Josh Gadong', 'Janet Mendoza', 'Janitor', 'Driver', 9786214863, 'C-Section'),
+(56, '2019-01-27 03:01:46', '2019-01-27 03:01:46', 'Locsin', 'Soberano', 'Berna', '2013-06-11', 'Phase 1, Bakakeng, Baguio City', 'Female', 'Junjun Locsin', 'Bernadeth Soberano', 'Housewife', 'Mcdonalds Crew', 9653257846, 'Forceps Delivery'),
+(57, '2019-01-27 03:04:35', '2019-01-27 03:04:35', 'Trump', 'Dulay', 'Manuelito', '2015-10-17', 'San Antonio, Candon City, Ilocos Sur', 'Male', 'Manuel Trump', 'Teresita Dulay', 'Fisherwoman', 'Seaman', 9436579431, 'Vaginal Birth After Cesarian'),
+(58, '2019-01-27 03:06:35', '2019-01-27 03:06:35', 'Ballocanag', 'Marti', 'Jeliko', '2015-07-20', 'San Jose, Candon City, Ilocos Sur', 'Male', 'John Ballocanag', 'Gina Marti', 'Teacher', 'Seaman', 9753641586, 'Forceps Delivery'),
+(59, '2019-01-27 03:09:30', '2019-01-27 03:09:30', 'Dacanay', 'Gadut', 'Jizel Mia', '2018-01-02', 'Santo Tomas, La Union', 'Female', 'Victor Dacanay', 'Mia Gadut', 'Teacher', 'Engineer', 9761349765, 'Vacuum Extraction'),
+(60, '2019-01-27 03:12:15', '2019-01-27 03:12:15', 'Manzano', 'Gallardo', 'Alyanna Dyan', '2012-02-03', 'San Antonio, Candon City, Ilocos Sur', 'Female', 'Alejandro Manzano', 'Doris Gallardo', 'CHRMO Employee', 'Police', 9136475791, 'Vaginal Delivery'),
+(61, '2019-01-27 03:15:50', '2019-01-27 03:15:50', 'Valdez', 'Elizarde', 'Vonica Andrea', '2016-11-30', 'San Antonio, Candon City, Ilocos Sur', 'Female', 'Edy Valdez', 'Nenita Elizarde', 'Retired Accountant', 'Chauffeur', 9463571594, 'Natural Delivery'),
+(62, '2019-01-27 03:18:19', '2019-01-27 03:18:19', 'Pagaduan', 'Galang', 'Karla Ansherina', '2012-01-17', 'Navy Base, Baguio City, Benguet', 'Female', 'Asher Pagaduan', 'Rina Galang', 'OFW', 'Technician', 9453671562, 'Natural Delivery'),
+(63, '2019-01-27 03:20:24', '2019-01-27 03:20:24', 'Miguel', 'Williams', 'Aaron', '2010-07-20', 'San Juan, La Union', 'Male', 'Jojo Miguel', 'Catherine Williams', 'OFW', 'OFW', 9436716853, 'Natural Delivery'),
+(64, '2019-01-27 03:23:29', '2019-01-27 03:23:29', 'Ordinario', 'Michaels', 'Abby', '2010-03-29', '429 Fairfield Road, Pewaukee, Wisconsin', 'Female', 'Gabby Ordinario', 'Michaela Michaels', 'Accountant', 'Scientist', 9453719543, 'C-Section'),
+(65, '2019-01-27 03:25:52', '2019-01-27 03:25:52', 'Saguid', 'Miguel', 'Abraham I', '2010-01-05', 'Trancoville, Baguio City', 'Male', 'Abraham Saguid', 'Fatima Miguel', 'OFW', 'Doctor', 9463751687, 'Vacuum Extraction'),
+(66, '2019-01-27 03:27:38', '2019-01-27 03:27:38', 'Saguid', 'Miguel', 'Abraham II', '2018-07-01', 'Trancoville, Baguio City', 'Male', 'Abraham Saguid', 'Fatima Miguel', 'OFW', 'Doctor', 9443615756, 'Vacuum Extraction'),
+(67, '2019-01-27 03:29:58', '2019-01-27 03:29:58', 'Fe', 'Buena', 'Abrahim', '2014-01-16', 'Bangued, Abra', 'Male', 'Abra Fe', 'Abigail Buena', 'Engineer', 'Architect', 9463571964, 'Vacuum Extraction'),
+(68, '2019-01-27 03:32:24', '2019-01-27 03:32:24', 'Echalas', 'Perez', 'Zyrille', '2015-08-18', 'Winnipeg, Manitoba', 'Female', 'Adrianne Echalas', 'Elaine Perez', 'Model', 'Programmer', 9463571954, 'C-Section'),
+(69, '2019-01-27 03:35:33', '2019-01-27 03:35:33', 'Guen', 'Gacula', 'Jordan', '2016-12-28', '3716 Huntz Lane, Marlboro, Massachusetts', 'Male', 'Michael Guen', 'Agnes Gacula', 'Dancer', 'Astrologer', 9463571954, 'Natural Delivery'),
+(70, '2019-01-27 03:37:39', '2019-01-27 03:37:39', 'Wagayen', 'Grande', 'Aia', '2017-05-08', '3164 Hill Croft Farm Road, Sacramento, California', 'Female', 'Ian Wagayen', 'Aileen Grande', 'Senator', 'Clerical Assistant', 9153549786, 'Vaginal Delivery'),
+(71, '2019-01-27 03:39:59', '2019-01-27 03:39:59', 'Ogunye', 'Rafael', 'Alex', '2014-01-01', '3871 Wood Street, Metairie, Louisiana', 'Male', 'Alex Ogunye', 'Luzviminda Rafael', 'Surveyor', 'Stockbroker', 9763154935, 'Choose...'),
+(72, '2019-01-27 03:43:15', '2019-01-27 03:43:15', 'Valdez', 'Llanes', 'Kier Arkin', '2010-05-22', '1226 Stratford Drive, Waipahu, Hawaii', 'Male', 'Paul Valdez', 'Lerissa Llanes', 'Housewife', 'Financial advisor', 9756451132, 'Forceps Delivery'),
+(73, '2019-01-27 03:45:17', '2019-01-27 03:45:17', 'Valdez', 'Llanes', 'Leighdi Mischa', '2015-07-14', '1226 Stratford Drive, Waipahu, Hawaii', 'Female', 'Paul Valdez', 'Lerissa Llanes', 'Housewife', 'Financial advisor', 9153649756, 'Natural Delivery'),
+(74, '2019-01-27 03:49:20', '2019-01-27 03:49:20', 'Ramirez', 'Miguel', 'Jerickson', '2014-11-22', '1040 Hummingbird Way, Topeka, Kansas', 'Male', 'Manuel Ramirez', 'Fatima Miguel', 'OFW', 'Deceased', 9347654345, 'Natural Delivery'),
+(75, '2019-01-27 03:51:42', '2019-01-27 03:51:42', 'Mendoza', 'Ramirez', 'Benjo', '2017-01-03', '3552 Young Road, Rupert, Idaho', 'Male', 'Joben Mendoza', 'Karla Ramirez', 'Company director', 'Blacksmith', 9463151321, 'Vaginal Delivery'),
+(76, '2019-01-27 03:53:53', '2019-01-27 03:53:53', 'Mendoza', 'Ramirez', 'Benjo', '2010-07-13', '3263 Pyramid Valley Road, Cedar Rapids, Iowa', 'Male', 'Kristian Mendoza', 'Ashley Ramirez', 'Cabinet maker', 'Mathematician', 9163456745, 'Vacuum Extraction'),
+(77, '2019-01-27 03:56:23', '2019-01-27 03:56:23', 'Resurrecion', 'Esguera', 'Carla', '2013-10-01', '2694 Rosemont Avenue, Orlando, Florida', 'Female', 'Bryan Resurrecion', 'Carla Esguera', 'Shoemaker', 'Astronomer', 9456321856, 'Choose...'),
+(78, '2019-01-27 03:58:50', '2019-01-27 03:58:50', 'Cruz', 'Chan', 'Charles', '2010-04-06', '3201 Maud Street, Wilmington, Delaware', 'Male', 'Cheaster Cruz', 'Charlotte Chan', 'Leaflet distributor', 'Anthropologist', 6945124651, 'Natural Delivery'),
+(79, '2019-01-27 04:06:45', '2019-01-27 04:06:45', 'Kim', 'Seok', 'Jin', '2011-12-05', '4904 Broadway Street, Myrtle Beach, South Carolina', 'Male', 'Yujin Kim', 'Sooji Seok', 'Judge', 'Coastguard', 9456321035, 'Forceps Delivery'),
+(80, '2019-01-27 04:08:55', '2019-01-27 04:08:55', 'Brians', 'Mercado', 'Monica', '2010-07-07', '4837 Lilac Lane, Pearson, Georgia', 'Female', 'Don Cloy Brians', 'Denisse Mercado', 'Hairdresser', 'Broadcaster', 9456321065, 'Natural Delivery');
 
 -- --------------------------------------------------------
 
@@ -448,7 +478,37 @@ INSERT INTO `patient_records` (`id`, `blood_type`, `birth_weight`, `birth_length
 (47, 'Type B', 4.00, 24.00, 10.00, 12.00, 13.00, 47, '2019-01-27 04:04:57', '2019-01-27 04:04:57'),
 (48, 'Type A+', 5.00, 28.00, 15.00, 16.00, 17.00, 48, '2019-01-27 04:07:45', '2019-01-27 04:07:45'),
 (49, 'Type A+', 3.00, 24.00, 10.00, 12.00, 13.00, 49, '2019-01-27 04:09:50', '2019-01-27 04:09:50'),
-(50, 'Type AB', 4.00, 25.00, 12.00, 13.00, 14.00, 50, '2019-01-27 04:11:08', '2019-01-27 04:11:08');
+(50, 'Type AB', 4.00, 25.00, 12.00, 13.00, 14.00, 50, '2019-01-27 04:11:08', '2019-01-27 04:11:08'),
+(51, 'Type O', 7.00, 16.00, 10.00, 12.00, 13.00, 1, '2019-01-27 02:45:21', '2019-01-27 02:45:21'),
+(52, 'Type AB', 6.00, 18.00, 9.00, 12.00, 11.00, 2, '2019-01-27 02:48:00', '2019-01-27 02:48:00'),
+(53, 'Type A-', 6.50, 14.50, 9.00, 13.00, 14.00, 3, '2019-01-27 02:53:55', '2019-01-27 02:53:55'),
+(54, 'Type O', 6.50, 10.76, 8.00, 11.00, 12.00, 4, '2019-01-27 02:56:05', '2019-01-27 02:56:05'),
+(55, 'Type B+', 10.50, 20.50, 10.00, 15.00, 16.00, 5, '2019-01-27 02:58:54', '2019-01-27 02:58:54'),
+(56, 'Type AB+', 9.00, 17.50, 7.00, 12.00, 13.00, 6, '2019-01-27 03:01:46', '2019-01-27 03:01:46'),
+(57, 'Type AB-', 9.00, 20.00, 6.00, 10.00, 11.00, 7, '2019-01-27 03:04:35', '2019-01-27 03:04:35'),
+(58, 'Choose...', 4.00, 9.00, 4.00, 6.00, 7.00, 8, '2019-01-27 03:06:35', '2019-01-27 03:06:35'),
+(59, 'Type B-', 3.00, 6.00, 3.00, 4.00, 5.00, 9, '2019-01-27 03:09:30', '2019-01-27 03:09:30'),
+(60, 'Type O', 10.00, 25.00, 7.50, 15.00, 18.00, 10, '2019-01-27 03:12:15', '2019-01-27 03:12:15'),
+(61, 'Type O', 6.38, 14.23, 4.44, 7.40, 8.68, 11, '2019-01-27 03:15:50', '2019-01-27 03:15:50'),
+(62, 'Type AB', 15.00, 25.00, 9.00, 15.00, 16.00, 12, '2019-01-27 03:18:19', '2019-01-27 03:18:19'),
+(63, 'Type B-', 18.00, 30.00, 14.00, 20.00, 22.00, 13, '2019-01-27 03:20:24', '2019-01-27 03:20:24'),
+(64, 'Type A', 20.00, 35.50, 15.00, 20.00, 21.00, 14, '2019-01-27 03:23:29', '2019-01-27 03:23:29'),
+(65, 'Type A', 25.00, 40.00, 17.00, 22.00, 23.00, 15, '2019-01-27 03:25:52', '2019-01-27 03:25:52'),
+(66, 'Type AB+', 22.50, 45.00, 22.00, 25.00, 26.00, 16, '2019-01-27 03:27:38', '2019-01-27 03:27:38'),
+(67, 'Type B-', 15.00, 30.00, 12.00, 15.00, 16.00, 17, '2019-01-27 03:29:58', '2019-01-27 03:29:58'),
+(68, 'Type AB+', 5.24, 10.00, 6.00, 7.00, 8.00, 18, '2019-01-27 03:32:24', '2019-01-27 03:32:24'),
+(69, 'Choose...', 3.00, 8.00, 2.00, 3.00, 4.00, 19, '2019-01-27 03:35:33', '2019-01-27 03:35:33'),
+(70, 'Choose...', 3.00, 9.00, 5.00, 6.00, 7.00, 20, '2019-01-27 03:37:39', '2019-01-27 03:37:39'),
+(71, 'Choose...', 8.00, 15.00, 9.00, 10.00, 11.00, 21, '2019-01-27 03:39:59', '2019-01-27 03:39:59'),
+(72, 'Type AB', 15.00, 30.00, 10.00, 14.00, 15.00, 22, '2019-01-27 03:43:15', '2019-01-27 03:43:15'),
+(73, 'Type B', 17.00, 25.00, 8.00, 12.00, 13.00, 23, '2019-01-27 03:45:17', '2019-01-27 03:45:17'),
+(74, 'Type O', 10.00, 30.00, 6.50, 10.00, 11.00, 24, '2019-01-27 03:49:20', '2019-01-27 03:49:20'),
+(75, 'Type B', 5.00, 10.00, 4.00, 6.00, 7.00, 25, '2019-01-27 03:51:42', '2019-01-27 03:51:42'),
+(76, 'Type O', 20.00, 50.00, 15.00, 18.00, 19.00, 26, '2019-01-27 03:53:54', '2019-01-27 03:53:54'),
+(77, 'Choose...', 16.00, 35.00, 15.00, 16.00, 17.00, 27, '2019-01-27 03:56:23', '2019-01-27 03:56:23'),
+(78, 'Type AB+', 16.00, 45.00, 16.00, 20.00, 21.00, 28, '2019-01-27 03:58:50', '2019-01-27 03:58:50'),
+(79, 'Type A+', 5.00, 25.00, 6.00, 7.00, 8.00, 29, '2019-01-27 04:06:45', '2019-01-27 04:06:45'),
+(80, 'Type O', 20.00, 60.00, 16.00, 18.00, 19.00, 30, '2019-01-27 04:08:55', '2019-01-27 04:08:55');
 
 -- --------------------------------------------------------
 
